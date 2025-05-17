@@ -1,0 +1,14 @@
+environment: dev
+kafka:
+  bootstrap_servers: "localhost:9092"
+  security_protocol: "PLAINTEXT"
+redis:
+  url: "redis://localhost:6379/0"
+exchanges:
+  binance:
+    api_key: "YOUR_BINANCE_KEY"
+    secret: "YOUR_BINANCE_SECRET"
+  coinbase:
+    api_key: "YOUR_COINBASE_KEY"
+    secret: "YOUR_COINBASE_SECRET"
+log_level: "INFO"
